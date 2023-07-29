@@ -1,8 +1,8 @@
 # 目的
-本程序连接telegrambot和qbittorrent，通过telegram聊天窗口控制查看qbittorrent情况
+本程序连接telegrambot和qbittorrent，通过telegram聊天窗口控制查看qbittorrent情况，目前只能运用qbittorrent的主要功能。如需立即体验可前往本人正在维护的[emby公益点播服](https://t.me/tembygroup)，其中的点播功能就是本程序的一部分。
 
 ```
-发送包含http或magnet链接时，将自动添加该种子
+发送包含http或magnet的链接时，将自动添加该种子
 status - 查询磁盘剩余及下载情况
 status_downloading - 查询正在下载任务进度
 pause_all - 暂停所有下载任务
@@ -24,7 +24,7 @@ docker run \
 closty/teleqbit
 ```
 
-### 例子
+### 实例
 ```
 docker run \
 --name teleqbit \
@@ -37,8 +37,9 @@ closty/teleqbit
 ```
 
 # 相关截图
-
-
+<img src="https://s2.loli.net/2023/07/30/iBxXqHZUptF2lM8.png"   width=30%>
+<img src="https://s2.loli.net/2023/07/30/SBtbmZX4rh1jsTx.png"   width=30%>
+<img src="https://s2.loli.net/2023/07/30/6xu38R7CytMm4qL.jpg"  width=30%>
 
 # TODO
 - 拆包
