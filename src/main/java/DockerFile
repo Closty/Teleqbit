@@ -1,0 +1,5 @@
+FROM openjdk:20
+RUN mkdir /teleqbit
+COPY . /Teleqbit
+
+
