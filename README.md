@@ -20,7 +20,7 @@ docker run \
 -e QB_NAME='替换成qbittorrent的账号' \
 -e QB_PASSWORD='替换成qbittorrent的密码' \
 -e BOT_TOKEN='替换成telegram bot的token' \
--e BOT_NAME='替换成CleverBottlebot' \
+-e BOT_NAME='替换成telegram bot的name不包含@' \
 closty/teleqbit
 ```
 
