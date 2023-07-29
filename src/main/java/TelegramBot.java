@@ -29,7 +29,7 @@ public class TelegramBot extends TelegramLongPollingBot {
                 SendMessage message = new SendMessage();
                 message.setChatId(update.getMessage().getChatId());
                 message.setText("""
-                        本程序为开源项目，github地址：
+                        开源项目github地址：https://github.com/Closty/Teleqbit
                         """);
                 try {
                     execute(message);
