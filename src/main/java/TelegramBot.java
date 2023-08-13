@@ -223,6 +223,9 @@ public class TelegramBot extends TelegramLongPollingBot {
                     message.setChatId(update.getMessage().getChatId());
                     String text = Qbittorrent.printDetail();
                     message.setText(text);
+                    if (!text.contains("no downloads available")) {
+                        setButtons(message);
+                    }
                     execute(message);
                 } catch (IOException | TelegramApiException | InterruptedException e) {
                     System.out.println(e.getMessage());
