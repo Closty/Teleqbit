@@ -1,5 +1,5 @@
 # 目的
-本程序连接telegrambot和qbittorrent，通过telegram聊天窗口控制查看qbittorrent情况，目前只能运用qbittorrent的主要功能。如需立即体验可前往本人正在维护的[emby公益点播服](https://t.me/tembygroup)，其中的点播功能就是本程序的一部分。
+本程序连接telegrambot和qbittorrent，通过telegram聊天窗口控制查看qbittorrent情况，目前只能运用qbittorrent的主要功能。
 
 ```
 发送包含http或magnet的链接时，将自动添加该种子
